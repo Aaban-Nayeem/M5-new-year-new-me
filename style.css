@@ -118,3 +118,85 @@ main {
   font-size: 1.8rem;
   font-weight: 500;
 }
+.call-now {
+  background-image: url("./images/watch.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.call-div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  padding: 6.2rem;
+}
+.call-div > h3 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-right: 40rem;
+  margin-bottom: 2.4rem;
+}
+
+.call-div > button,
+a {
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+  color: #f15b22;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.8rem 2.5rem;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  background: #151414;
+  padding: 12rem;
+  justify-content: space-between;
+  gap: 200px;
+}
+.footer-text {
+  width: 50%;
+}
+.footer-text img {
+  margin-right: 2rem;
+}
+.footer-title,
+.footer-subscribe-title {
+  color: #f8f8f8;
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-bottom: 1.6rem;
+}
+.footer-description,
+.email,
+.phone {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  padding-bottom: 2rem;
+}
+.email-box {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 2rem;
+  width: 80%;
+  background: #151414;
+  margin-bottom: 1.6rem;
+}
+
+.sub-btn {
+  color: #f15b22;
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  width: 30%;
+}
