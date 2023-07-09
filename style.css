@@ -51,17 +51,21 @@ html {
 }
 
 /* todo; This is main section styling rules */
+main {
+  max-width: 1050px;
+  margin: 100px auto;
+}
+
 .banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 3rem;
-  padding: 8rem;
 }
 
 .banner-image > img {
   background-size: 527.929px;
-  height: 80%;
+  height: 70%;
 }
 
 .banner-text-title {
@@ -81,11 +85,36 @@ html {
   list-style-position: inside;
   margin-left: 5rem;
 }
-
+.my-plan {
+  text-align: center;
+  color: #151414;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 5rem 0;
+}
 .plan {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan-item {
+  text-align: center;
+}
+.plan-img {
+  align-content: center;
+  width: 40%;
+  padding: 10px auto;
 }
 
-.plan-title{
-  
+.plan-title {
+  color: #151414;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: auto;
+}
+
+.plan-description {
+  color: #737272;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
