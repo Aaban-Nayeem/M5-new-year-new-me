@@ -35,19 +35,19 @@ html {
   margin-bottom: 3.2rem;
 }
 
-.header-text > button {
+.header-btn {
   border-radius: 5px;
-  background: #f15b22;
   border: none;
-  padding: 1.2rem 1rem;
   margin-left: auto;
 }
-
-.header-text > button > a {
-  text-decoration: none;
-  color: white;
+.btn-a {
+  background-color: #f15b22;
+  color: #fff;
+  text-align: center;
   font-size: 2rem;
   font-weight: 600;
+  text-decoration: none;
+  padding: 1.8rem 2.5rem;
 }
 
 /* todo; This is main section styling rules */
@@ -137,21 +137,23 @@ main {
   font-size: 4rem;
   font-weight: 700;
   margin-right: 40rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3rem;
 }
 
-.call-div > button,
+.call-div button,
 a {
   border-radius: 5px;
   background-color: #fff;
   border: none;
+  margin-right: auto;
+}
+.call-div a {
   color: #f15b22;
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
   padding: 1.8rem 2.5rem;
-  margin-right: auto;
 }
 
 footer {
