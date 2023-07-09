@@ -1,5 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* todo; This is header section styling rules */
+.header-text {
+  background: url("./images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 18rem 12rem 15rem 60rem;
+}
+
+.header-title {
+  color: #151414;
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 2rem;
+}
+.header-description {
+  color: #444343;
+  text-align: right;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.header-text > button {
+  border-radius: 5px;
+  background: #f15b22;
+  border: none;
+  padding: 1.2rem 1rem;
+  margin-left: auto;
+}
+
+.header-text > button > a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* todo; This is main section styling rules */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  padding: 8rem;
+}
+
+.banner-image > img {
+  background-size: 527.929px;
+  height: 80%;
+}
+
+.banner-text-title {
+  color: #151414;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  margin-left: 5rem;
+}
+.banner-text-description,
+.banner-text-list {
+  color: #444343;
+  font-size: 1.6rem;
+  font-family: Work Sans;
+  line-height: 2rem;
+  list-style-image: url("./images/icons/cheak.png");
+  list-style-position: inside;
+  margin-left: 5rem;
+}
+
+.plan {
+  display: flex;
+}
+
+.plan-title{
+  
 }
